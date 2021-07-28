@@ -11,4 +11,6 @@ These themes can be applied using the **Stylus** extension for Firefox and Chrom
 
 # SearX
 ![CSS](searx/searx.css)
+|                                     |                                       |
+| ----------------------------------- | ------------------------------------- |
 | ![Screenshot](searx/screenshot.png) | ![Screenshot2](searx/screenshot2.png) |
