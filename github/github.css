@@ -1,0 +1,580 @@
+:root {
+    --fg: #fbf1c7;
+    --bg: #1d2021;
+    --black: #3c3836;
+    --red: #ea6962;
+    --green: #a9b655;
+    --orange: #E1885D;
+    --yellow: #d8a657;
+    --blue: #7daea3;
+    --magenta: #d3869b;
+    --cyan: #89b482;
+    --grey: #928374
+    --xcolor15: #ebdbb2;
+
+    --sans: Ubuntu;
+    --mono: Fira Code Retina;
+
+    --br: 2em;
+}
+
+/* header */
+header {
+    background-color: var(--bg) !important;
+}
+a.Header-link {
+    color: var(--fg) !important;
+}
+input.form-control {
+    background-color: transparent !important;
+}
+label.form-control {
+    background-color: var(--black) !important;
+    border-radius: var(--br) !important;
+    padding: 0.1em 0.1em !important;
+    border: 0px solid transparent !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+span.disabled {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+ul span {
+    color: var(--fg) !important;
+}
+ul button {
+    color: var(--fg) !important;
+}
+ul svg {
+    color: var(--cyan) !important;
+}
+.dropdown-menu {
+    background-color: var(--bg) !important;
+    border-color: var(--black) !important;
+}
+.dropdown-menu a {
+    color: var(--fg) !important;
+}
+.dropdown-menu button {
+    color: var(--yellow) !important;
+}
+.feature-preview-indicator {
+    background-image: linear-gradient(var(--cyan),var(--blue));
+}
+.notification-indicator .mail-status {
+    background-image: linear-gradient(var(--red),var(--orange)) !important;
+}
+
+/* main page */
+body {
+    font-family: var(--sans) !important;
+}
+div.hx_page-header-bg {
+    background-color: var(--bg) !important;
+}
+h1.d-flex a {
+    color: var(--orange) !important;
+}
+ul.pagehead-actions li {
+    background-color: var(--black) !important;
+    padding: 0em 0.6em !important;
+    border-radius: var(--br) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+li summary {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+li button {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+li a {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+main {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+a {
+    color: var(--blue) !important;
+}
+.file-navigation summary {
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    color: var(--green) !important;
+}
+.file-navigation summary svg {
+    color: var(--green) !important;
+}
+a.btn {
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+div.file-navigation a {
+    color: var(--cyan) !important;
+}
+div.file-navigation span {
+    color: var(--cyan) !important;
+}
+div.flash.mb-4 {
+    background-color: var(--bg) !important;
+    border-radius: var(--br) !important;
+    border: 0px solid transparent !important;
+}
+
+/* file and timeline preview */
+.Box-header {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+.Box-header a.Link--primary {
+    color: var(--fg) !important;
+}
+.Box-header a.f6 {
+    color: var(--orange) !important;
+}
+.Box-header relative-time {
+    color: var(--cyan) !important;
+}
+.Box-header span {
+    color: var(--magenta) !important;
+}
+.Box-header svg {
+    color: var(--magenta) !important;
+}
+div.Box-row {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+.Box-row a {
+    color: var(--fg) !important;
+}
+time-ago {
+    color: var(--yellow) !important;
+}
+.Box-row svg {
+    color: var(--blue) !important
+}
+div.Box.mb-3 {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: inset 7px 7px 14px #0f1011,
+            inset -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 3em 0em !important;
+}
+.dropdown-menu {
+    border-radius: var(--br) !important;
+    padding: 0.4em !important;
+    border: 0px solid transparent !important;
+    box-shadow:  7px 7px 14px #0f1011,
+             -7px -7px 14px #2c3032;
+    margin-top: 0.4em !important;
+}
+.dropdown-menu input {
+    color: var(--fg) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    background-color: var(--black) !important;
+}
+.dropdown-menu .border-bottom {
+    border: 0px solid transparent !important;
+}
+.dropdown-menu li {
+    background-color: transparent !important;
+}
+.dropdown-menu li a.d-flex {
+    margin: 1em 1em !important;
+}
+.dropdown-menu button.dropdown-item:hover {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+.dropdown-menu li a.d-flex:hover {
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    background-color: var(--bg) !important;
+}
+a.SelectMenu-item {
+    background-color: var(--bg) !important;
+}
+div.SelectMenu-modal * {
+    border: 0px solid transparent !important;
+}
+button.SelectMenu-tab {
+    border-radius: var(--br) !important;
+    border: 0px solid transparent !important;
+    outline: none !important;
+    margin-bottom: 1em !important;
+}
+clipboard-copy {
+    color: var(--fg) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    background-color: transparent !important;
+}
+clipboard-copy svg {
+    color: var(--red) !important;
+}
+
+
+/* README */
+div#readme {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow:  7px 7px 14px #0f1011,
+             -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+}
+div.js-sticky {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+div.js-sticky .flex-items-center {
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    border-radius: var(--br) !important;
+    padding: 0.4em 2em 0.4em 1em !important;
+}
+div.js-sticky a {
+    color: var(--yellow) !important;
+}
+div.js-sticky svg {
+    color: var(--orange) !important;
+}
+
+/* footer */
+.footer {
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    padding: 0em 2em !important;
+}
+div.border-top {
+    background-color: var(--bg) !important;
+}
+body {
+    background-color: var(--bg) !important;
+}
+
+/* sidebar */
+div.BorderGrid-cell a {
+    color: var(--fg) !important;
+}
+relative-time {
+    color: var(--yellow) !important;
+}
+div.BorderGrid-cell {
+    border: 0px solid transparent !important;
+}
+.color-text-secondary {
+    color: var(--blue) !important;
+}
+.color-text-primary {
+    color: var(--blue) !important;
+}
+div.BorderGrid-cell svg {
+    color: var(--green) !important;
+}
+div.BorderGrid-cell span {
+    color: var(--red);
+}
+div.BorderGrid-cell span.Label {
+    color: var(--green) !important;
+}
+div.BorderGrid-cell span.Counter {
+    color: var(--fg) !important;
+    background-color: var(--black) !important;
+    margin-left: 0.4em !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+span.color-text-primary {
+    color: var(--yellow) !important;
+}
+
+/* profile view */
+div.Box-body {
+    border: 0px solid transparent !important;
+}
+header.pagehead.orghead {
+    margin: 2em !important;
+}
+input#your-repos-filter {
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+div.color-border-secondary summary.btn {
+    background-color: var(--black) !important;
+    color: var(--yellow) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+h1.lh-condensed.h2 {
+    color: var(--fg) !important;
+}
+em.current {
+    background-color: var(--blue) !important;
+    color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+div.paginate-container a{
+    color: var(--fg) !important;
+}
+div.paginate-container a:hover {
+    background-color: var(--black) !important;
+    color: var(--fg) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+summary.Label--success {
+    color: var(--green) !important;
+}
+div.SelectMenu-modal {
+    border-radius: var(--br) !important;
+    padding: 0.4em !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+label.SelectMenu-item {
+    background-color: var(--bg) !important;
+    color: var(--cyan) !important;
+    border: 0px solid transparent !important;
+}
+
+/* personal profile view */
+div.Box.pinned-item-list-item {
+    background-color: var(--bg) !important;
+    padding: 2em !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow: inset 7px 7px 14px #0f1011,
+            inset -7px -7px 14px #2c3032;
+}
+div.Box.pinned-item-list-item a {
+    color: var(--fg) !important;
+}
+div.flex-shrink-0 {
+    background-color: transparent !important;
+}
+div.container-xl {
+    background-color: var(--bg) !important;
+}
+div.container-xl summary {
+    color: var(--yellow) !important;
+}
+
+h2.f4.mb-2 {
+    color: var(--fg) !important;
+}
+button.js-profile-editable-edit-button {
+    border-radius: var(--br) !important;
+    padding: 0.4em !important;
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--red) !important;
+}
+button.ajax-pagination-btn {
+    border-radius: var(--br) !important;
+    padding: 0.4em !important;
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--green) !important;
+}
+summary:hover {
+    color: var(--blue) !important;
+}
+span.color-bg-canvas {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+div.user-status-circle-badge {
+    border-radius: var(--br) !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+div.user-status-circle-badge svg {
+    color: var(--cyan) !important;
+}
+img.avatar-user {
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+
+/* home page */
+div.dashboard-sidebar {
+    background-color: var(--bg) !important;
+}
+div.dashboard-sidebar h2.f4 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: var(--red) !important;
+}
+div.dashboard-sidebar span {
+    color: var(--yellow) !important;
+}
+input#dashboard-repos-filter-left {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+div.d-md-flex {
+    background-color: var(--bg) !important;
+}
+div.d-md-flex div.Box {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    padding: 2em !important;
+    margin-top: 2em !important;
+    box-shadow: inset 7px 7px 14px #0f1011,
+            inset -7px -7px 14px #2c3032;
+}
+div.d-md-flex span.color-text-primary.no-underline {
+    color: var(--fg) !important;
+}
+div.d-md-flex a.Link--primary {
+    color: var(--orange) !important;
+}
+div.d-md-flex .border-bottom {
+    border: 0px !important;
+}
+div.d-md-flex a.branch-name {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+div.d-md-flex blockquote {
+    color: var(--cyan) !important;
+    font-style: italic !important;
+}
+div.d-md-flex aside.team-left-column h2.f5 {
+    color: var(--fg) !important;
+}
+div.d-md-flex aside.team-left-column p.note {
+    background-color: transparent !important;
+    color: var(--green) !important;
+}
+
+/* general fixes */
+[data-color-mode] {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+a.subnav-item {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    margin: 0em 0.4em !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--fg) !important;
+}
+a.subnav-item.selected {
+    color: var(--bg) !important;
+    background-color: var(--blue) !important;
+}
+div.d-flex.flex-lg-justify-between input.form-control {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    margin: 0em 0.4em !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--fg) !important;
+}
+button.SelectMenu-item {
+    background-color: var(--bg) !important;
+}
+h3.SelectMenu-title {
+    color: var(--green) !important;
+}
+li.Box-body {
+    border: 0px !important;
+}
+li.Box-body.text-center.color-text-tertiary {
+    color: var(--red) !important;
+}
+span.Label.Label--secondary {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    margin: 0em 0.4em !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--fg) !important;
+}
+details-dialog.Box {
+    border-radius: var(--br) !important;
+    padding: 1em !important;
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+}
+details-dialog.Box button.btn.btn-primary {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--green) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--bg) !important;
+}
+details-dialog.Box button.btn {
+    border-radius: var(--br) !important;
+    padding: 0.4em 1em !important;
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    box-shadow:  2px 2px 5px #0c0d0d,
+             -2px -2px 5px #2e3335;
+    color: var(--fg) !important;
+}
+details-dialog.Box div.Box-body * {
+    border-radius: var(--br) !important;
+}

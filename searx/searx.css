@@ -1,0 +1,208 @@
+:root {
+    --fg: #fbf1c7;
+    --bg: #1d2021;
+    --black: #3c3836;
+    --red: #ea6962;
+    --green: #a9b655;
+    --orange: #E1885D;
+    --yellow: #d8a657;
+    --blue: #7daea3;
+    --magenta: #d3869b;
+    --cyan: #89b482;
+    --grey: #928374
+    --xcolor15: #ebdbb2;
+
+    --sans: Ubuntu;
+    --mono: Fira Code Retina;
+
+    --br: 2em;
+}
+
+body {
+    color: var(--fg) !important;
+    background-color: var(--bg) !important;
+    font-family: var(--sans);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+input {
+    border-radius: var(--br) !important;
+    background-color: var(--black) !important;
+    color: var(--fg) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    transition: 49ms;
+    padding: 0em 1.5em !important;
+}
+
+small {
+    color: transparent !important;
+}
+
+input.form-control {
+    border: 0px solid transparent !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+
+}
+
+select {
+    border-radius: var(--br) !important;
+    border: 0px solid transparent !important;
+    background-color: var(--black) !important;
+    color: var(--xcolor15) !important;
+    transition: 49ms;
+    padding: 0em 1.5em !important;
+}
+
+select.form-control {
+    border: 0px solid transparent !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+
+button {
+    border-radius: var(--br) !important;
+    margin: 0em 0.4em !important;
+    background-color: var(--black) !important;
+    transition: 49ms;
+    color: var(--fg) !important;
+}
+
+button:hover {
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729;
+}
+
+a {
+    color: var(--blue) !important;
+}
+
+.external-link {
+    color: var(--orange) !important;
+}
+
+p.result-content {
+    color: var(--xcolor15) !important;
+}
+
+div.result {
+    border-radius: 1em !important;
+    padding: 1em !important;
+    margin: 2em 0em 0em !important;
+    transition: 49ms !important;
+    background-color: var(--bg) !important;
+}
+
+div.result:hover {
+    box-shadow:  10px 10px 15px #171a1a,
+             -10px -10px 15px #232628;
+    background-color: var(--black) !important;
+}
+
+h4.result_header a {
+    color: var(--blue) !important;
+    font-size: 18px !important;
+}
+
+h4.result_header a:visited {
+    color: var(--magenta) !important;
+}
+
+.text-info {
+    color: var(--green) !important;
+}
+
+span.label {
+    color: var(--yellow) !important;
+}
+
+#categories label {
+    border-radius: var(--br) !important;
+    margin: 0em 0.4em 2em !important;
+    background-color: var(--black) !important;
+    transition: 49ms;
+    color: var(--xcolor15) !important;
+    border-bottom: 0.1em solid transparent !important;
+}
+
+#categories :checked + label {
+    border-bottom: 0.1em solid transparent !important;
+    color: var(--cyan) !important;
+    box-shadow:  5px 5px 10px #151718,
+             -5px -5px 10px #25292a;
+}
+
+div#categories {
+    margin-top: 1.5em;
+}
+
+div.searx-navbar {
+    background-color: var(--bg) !important;
+}
+
+span.instance.pull-left a {
+    color: transparent !important;
+}
+
+label {
+    color: var(--fg) !important;
+}
+
+.panel-heading {
+    border-radius: var(--br) var(--br) 0em 0em !important;
+    padding: 2em 2em 0em !important;
+    background-color: transparent !important;
+    color: var(--cyan) !important;
+}
+
+.panel-body {
+    padding: 2em !important;
+    background-color: transparent !important;
+    color: var(--xcolor15) !important;
+}
+
+.panel {
+    border-radius: var(--br) !important;
+    border: 0px solid transparent;
+    box-shadow: inset 7px 7px 14px #151718,
+            inset -7px -7px 14px #25292a;
+    margin-top: 1em !important;
+}
+
+div.col-md-8.col-md-offset-2.advanced {
+    margin-top: 2em !important;
+}
+
+p.text-muted a {
+    color: transparent !important;
+}
+
+p.infobox_part {
+    color: var(--xcolor15) !important;
+}
+
+label.infobox_toggle.panel-footer {
+    border-radius: 0em 0em var(--br) var(--br) !important;
+    background-color: var(--black) !important;
+}
+
+.onoffswitch-switch {
+    background-color: var(--blue) !important;
+}
+
+div.result.well {
+    font-size: 18px !important;
+    border: 0px solid transparent;
+    box-shadow:  5px 5px 10px #151718,
+             -5px -5px 10px #25292a;
+    background-color: var(--bg) !important;
+    font-style: italic !important;
+}
+
+div.result.well:hover {
+    box-shadow:  5px 5px 10px #151718,
+             -5px -5px 10px #25292a !important;
+    background-color: var(--bg) !important;
+}

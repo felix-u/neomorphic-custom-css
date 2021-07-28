@@ -1,0 +1,200 @@
+:root {
+    --fg: #fbf1c7;
+    --bg: #1d2021;
+    --black: #3c3836;
+    --red: #ea6962;
+    --green: #a9b655;
+    --orange: #E1885D;
+    --yellow: #d8a657;
+    --blue: #7daea3;
+    --magenta: #d3869b;
+    --cyan: #89b482;
+    --grey: #928374
+    --xcolor15: #ebdbb2;
+
+    --sans: Ubuntu;
+    --mono: Fira Code Retina;
+
+    --br: 2em;
+}
+
+/* message page */
+ol {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+ol a {
+    color: var(--blue) !important;
+}
+div.mx_AccessibleButton {
+    color: var(--cyan) !important;
+}
+
+/* pre-formatted text (code) */
+pre {
+    background-color: var(--black) !important;
+    border-radius: var(--br) !important;
+    padding: 1.6em !important;
+    box-shadow: inset 9px 9px 20px #2d2a29,
+            inset -9px -9px 20px #4b4644 !important;
+    border: 0px solid transparent !important;
+}
+code {
+    background-color: transparent !important;
+}
+
+/* messages */
+.mx_EventTile:hover .mx_EventTile_line {
+    background-color: var(--black) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+.mx_EventTile_line {
+    border-radius: var(--br) !important;
+    padding: 0.4em 4em !important;
+    border: 0px solid transparent !important;
+}
+.mx_EventTile_line:hover {
+    background-color: var(--black) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+.mx_MessageTimestamp {
+    color: var(--yellow) !important;
+    font-family: var(--mono) !important;
+    padding: 0.1em 1em !important;
+}
+.mx_UserPill {
+    color: var(--fg) !important;
+    background-color: var(--black) !important;
+    padding: 0.3em 0.9em !important;
+    margin: -0.2em 0.4em 0em
+}
+.mx_LinkPreviewWidget {
+    color: var(--fg);
+    background-color: var(--black) !important;
+    border-radius: var(--br) !important;
+    padding: 2em 1.6em 2em 0em !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    border: 0px solid transparent !important;
+}
+.mx_LinkPreviewGroup {
+    padding: 0.4em 2em !important;
+}
+.mx_SenderProfile {
+    margin-bottom: 0.6em !important;
+}
+
+/* buttons */
+.mx_MessageActionBar {
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    margin-top: -1em !important;
+    border-radius: var(--br) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+
+/* header */
+.mx_RoomHeader_wrapper {
+    background-color: var(--bg) !important;
+    border-bottom: 0.16em solid var(--black) !important;
+    padding: 0.4em !important;
+}
+.mx_RoomHeader_wrapper a{
+    color: var(--blue) !important;
+}
+.mx_RoomHeader_wrapper a:hover {
+    color: var(--blue) !important;
+}
+.mx_RoomHeader_buttons {
+    background-color: var(--black) !important;
+    border-radius: var(--br) !important;
+    padding: 0em 0.4em !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+}
+.mx_RoomHeader_name {
+    background-color: var(--black) !important;
+    border-radius: var(--br) !important;
+    padding: 0.4em 0.9em !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    color: var(--yellow) !important;
+}
+.mx_RoomHeader_topic {
+    color: var(--fg) !important;
+}
+
+/* sidebar */
+.mx_LeftPanel_roomListContainer {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+.mx_RoomTile_selected {
+    background-color: var(--black) !important;
+    color: var(--cyan) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    border-radius: var(--br) !important;
+}
+.mx_RoomSearch {
+    background-color: var(--bg) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    border-radius: var(--br) !important;
+}
+.mx_LeftPanel_exploreButton {
+    background-color: var(--bg) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    border-radius: var(--br) !important;
+}
+.mx_RoomSublist_auxButton {
+    background-color: transparent !important;
+}
+
+/* leftmost pane */
+.mx_GroupFilterPanel_scroller {
+    background-color: var(--bg) !important;
+}
+.mx_RoleButton {
+    background-color: var(--black) !important;
+    box-shadow:  9px 9px 14px #161919,
+             -9px -9px 14px #242729 !important;
+    border-radius: var(--br) !important;
+}
+
+
+/* send bar */
+div.mx_MessageComposer_wrapper {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+
+}
+
+/* username colours */
+.mx_Username_color1 {
+    color: var(--blue) !important;
+}
+.mx_Username_color2 {
+    color: var(--magenta) !important;
+}
+.mx_Username_color3 {
+    color: var(--cyan) !important;
+}
+.mx_Username_color4 {
+    color: var(--red) !important;
+}
+.mx_Username_color5 {
+    color: var(--orange) !important;
+}
+.mx_Username_color7 {
+    color: var(--magenta) !important;
+}
+.mx_Username_color8 {
+    color: var(--green) !important;
+}
+
+
