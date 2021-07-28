@@ -2,13 +2,13 @@
 These themes can be applied using the **Stylus** extension for Firefox and Chromium-based browsers. Colours can easily be modified by changing the root variables at the top of each CSS theme. Example screenshots use ![gruvbox-material](https://github.com/sainnhe/gruvbox-material).
 ---
 # Element
-![CSS](element/element.css)
 ![Screenshot](element/screenshot.png)
+![CSS](element/element.css)
 
 # GitHub
-![CSS](github/github.css)
 ![Screenshot](github/screenshot.png)
+![CSS](github/github.css)
 
 # SearX
-![CSS](searx/searx.css)
 ![Screenshot](searx/screenshot.png)
+![CSS](searx/searx.css)
