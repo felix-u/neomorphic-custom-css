@@ -4,12 +4,12 @@ These themes can be applied using the **Stylus** extension for Firefox and Chrom
 
 # Element
 ![Screenshot](element/screenshot.png)
-![CSS](element/element.css)
+[CSS](element/element.css)
 
 # GitHub
 ![Screenshot](github/screenshot.png)
-![CSS](github/github.css)
+[CSS](github/github.css)
 
 # SearX
 ![Screenshot](searx/screenshot.png)
-![CSS](searx/searx.css)
+[CSS](searx/searx.css)
