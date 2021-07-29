@@ -66,6 +66,10 @@ ul svg {
     background-image: linear-gradient(var(--red),var(--orange)) !important;
 }
 
+div.mt-4.position-sticky {
+     background-color: var(--bg) !important;
+}
+
 /* main page */
 body {
     font-family: var(--sans) !important;
