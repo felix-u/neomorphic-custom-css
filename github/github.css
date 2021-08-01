@@ -121,8 +121,9 @@ a.btn {
     background-color: var(--black) !important;
     border: 0px solid transparent !important;
     border-radius: var(--br) !important;
-    box-shadow:  9px 9px 14px #161919,
-             -9px -9px 14px #242729 !important;
+    box-shadow:  4px 4px 10px #161919,
+             -4px -4px 10px #242729 !important;
+    margin: 0.3em;
 }
 div.file-navigation a {
     color: var(--cyan) !important;
@@ -134,6 +135,15 @@ div.flash.mb-4 {
     background-color: var(--bg) !important;
     border-radius: var(--br) !important;
     border: 0px solid transparent !important;
+}
+
+div.Box.position-absolute.overflow-hidden {
+    background-color: var(--bg) !important;
+}
+
+div.Box.position-absolute.overflow-hidden * {
+    background-color: var(--bg) !important;
+    padding: 0em 0em 0em 0em;
 }
 
 /* file and timeline preview */
@@ -178,6 +188,17 @@ div.Box.mb-3 {
     padding: 1em 1em 1.6em !important;
     margin: 3em 0em !important;
 }
+
+div.Box.mt-3 {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: 7px 7px 14px #0f1011,
+        -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 3em 0em !important;
+}
+
 .dropdown-menu {
     border-radius: var(--br) !important;
     padding: 0.4em !important;
@@ -232,6 +253,101 @@ clipboard-copy svg {
     color: var(--red) !important;
 }
 
+/* commit history */
+
+ol.mt-3 {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: inset 7px 7px 14px #0f1011,
+            inset -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 3em 0em !important;
+}
+
+li.Box-Row {
+    background-color: var(--bg);
+}
+
+/* Notifications */
+
+div.Box.mx-0.mt-0 {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: 7px 7px 14px #0f1011,
+            -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1em!important;
+    margin: 3em 0em 2em 0em !important;
+}
+
+div.Box.mx-0.mt-0 * {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+}
+
+nav.color-bg-primary {
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+}
+
+button.btn.BtnGroup-item {
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  4px 4px 10px #161919,
+             -4px -4px 10px #242729 !important;
+    margin: 0.3em;
+}
+
+
+
+/* pull requests */
+div#js-issues-toolbar {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 3em 0em !important;
+}
+
+div.flex-shrink-0.col-12.col-md-3.mb-4 * {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+}
+
+
+/* SUBMENU */
+div.form-group {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: 7px 7px 14px #0f1011,
+            -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 2em 0em 1em 0em !important;
+}
+
+textarea#repo_description {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    margin: 0em 0em !important;
+}
+
+input#repo_homepage {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+}
+
+div.js-tag-input-wrapper {
+    margin: 0em 0em !important;
+}
+
+div.tag-input {
+    background-color: var(--bg) !important;
+    border: 0px solid transparent !important;
+    margin: 1em 0em !important;
+}
 
 /* README */
 div#readme {
@@ -260,6 +376,7 @@ div.js-sticky a {
 div.js-sticky svg {
     color: var(--orange) !important;
 }
+
 
 /* footer */
 .footer {
@@ -441,6 +558,27 @@ img.avatar-user {
              -2px -2px 5px #2e3335;
 }
 
+div.Box.p-3 {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: 7px 7px 14px #0f1011,
+            -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 3em 0em !important;
+}
+
+/* commit timeline */
+div.border {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: 7px 7px 14px #0f1011,
+            -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 3em 0em !important;
+}
+
 /* home page */
 div.dashboard-sidebar {
     background-color: var(--bg) !important;
@@ -500,6 +638,48 @@ div.d-md-flex aside.team-left-column h2.f5 {
 div.d-md-flex aside.team-left-column p.note {
     background-color: transparent !important;
     color: var(--green) !important;
+}
+
+button.btn.btn-sm.ml-2 {
+    background-color: var(--black) !important;
+    border: 0px solid transparent !important;
+    border-radius: var(--br) !important;
+    box-shadow:  4px 4px 10px #161919,
+             -4px -4px 10px #242729 !important;
+    margin: 0.3em;
+}
+
+/* MARKETPLACE */
+div.MarketplaceBody {
+    background-color: var(--bg) !important;
+}
+
+div.MarketplaceHeader {
+    background-color: var(--bg) !important;
+}
+
+div.MarketplaceBackground-buffer {
+    background-color: var(--bg) !important;
+}
+
+div.container-lg.p-responsive.clearfix {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow:  7px 7px 14px #0f1011,
+             -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+}
+
+/* EXPLORE */
+div.col-md-8.col-lg-6.py-4 {
+    border: 0px solid transparent !important;
+    background-color: var(--bg) !important;
+    box-shadow: 7px 7px 14px #0f1011,
+            -7px -7px 14px #2c3032;
+    border-radius: var(--br) !important;
+    padding: 1em 1em 1.6em !important;
+    margin: 2em 0em 1em 0em !important;
 }
 
 /* general fixes */
