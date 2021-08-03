@@ -1,0 +1,80 @@
+:root {
+    --fg: #fbf1c7;
+    --bg: #1d2021;
+    --black: #3c3836;
+    --red: #ea6962;
+    --green: #a9b655;
+    --orange: #E1885D;
+    --yellow: #d8a657;
+    --blue: #7daea3;
+    --magenta: #d3869b;
+    --cyan: #89b482;
+    --grey: #928374
+    --xcolor15: #ebdbb2;
+
+    --sans: Ubuntu;
+    --mono: Fira Code Retina;
+
+    --br: 2em;
+}
+
+/*main body*/
+ytd-rich-grid-renderer {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+
+/*hamburger menu and logo at the top*/
+#start.ytd-masthead {
+    background-color: var(--bg) !important;
+}
+yt-icon#guide-icon {
+    color: var(--blue) !important;
+}
+
+/*video titles*/
+#video-title {
+    color: var(--fg) !important;
+}
+/*video details other than titles*/
+div#details span {
+    color: var(--yellow) !important;
+}
+/*channel link*/
+div#details a {
+    color: var(--orange) !important;
+}
+
+/*left sidebar*/
+ytd-mini-guide-renderer.ytd-app {
+    background-color: var(--bg) !important;
+}
+ytd-mini-guide-renderer.ytd-app a#endpoint {
+    background-color: var(--bg) !important;
+}
+ytd-mini-guide-entry-renderer .guide-icon.ytd-mini-guide-entry-renderer {
+    color: var(--fg) !important;
+}
+ytd-mini-guide-entry-renderer .title.ytd-mini-guide-entry-renderer {
+    color: var(--fg) !important;
+}
+ytd-mini-guide-entry-renderer[is-active] .guide-icon.ytd-mini-guide-entry-renderer {
+    color: var(--cyan) !important;
+    background-color: var(--black) !important;
+    border-radius: var(--br) !important;
+    padding: 0.6em !important;
+    box-shadow:  9px 9px 14px #181818,
+             -9px -9px 14px #272727 !important;
+}
+ytd-mini-guide-entry-renderer[is-active] .title.ytd-mini-guide-entry-renderer {
+    color: var(--cyan) !important;
+}
+
+/*top navigation*/
+#container.ytd-masthead {
+    background-color: var(--bg) !important;
+}
+/*topic suggestions*/
+#chips.ytd-feed-filter-chip-bar-renderer {
+    background-color: var(--bg) !important;
+}
