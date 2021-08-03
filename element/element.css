@@ -90,7 +90,7 @@ code {
 .mx_MessageActionBar {
     background-color: var(--black) !important;
     border: 0px solid transparent !important;
-    margin-top: -1em !important;
+    margin-top: 1em !important;
     border-radius: var(--br) !important;
     box-shadow:  9px 9px 14px #161919,
              -9px -9px 14px #242729 !important;
@@ -197,4 +197,37 @@ div.mx_MessageComposer_wrapper {
     color: var(--green) !important;
 }
 
+/*dialogues such as "upload files"*/
+div.mx_Dialog {
+    border: 0px !important;
+    border-radius: var(--br) !important;
+    background-color: var(--bg) !important;
+    color: var(--green) !important;
+    box-shadow: none !important;
+}
+div.mx_Dialog_title {
+    color: var(--fg) !important;
+}
+.mx_Dialog_cancelButton {
+    background-color: var(--red) !important;
+}
+button.mx_Dialog_primary {
+    border-radius: var(--br) !important;
+    background-color: var(--green) !important;
+    color: var(--bg) !important;
+    box-shadow:  9px 9px 14px #181818,
+             -9px -9px 14px #272727 !important;
+    border: 0px !important;
+}
+.mx_UploadConfirmDialog_imagePreview {
+    border-radius: var(--br) !important;
+    border: 0px !important;
+    box-shadow:  9px 9px 14px #181818,
+             -9px -9px 14px #272727 !important;
+    margin: 0em 0em 1em !important;
+}
 
+/*box that sometimes appears above send space*/
+.mx_RoomView_statusAreaBox {
+    background-color: var(--bg) !important;
+}
