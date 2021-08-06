@@ -123,7 +123,7 @@ a.btn {
     border-radius: var(--br) !important;
     box-shadow:  4px 4px 10px #161919,
              -4px -4px 10px #242729 !important;
-    margin: 0.3em;
+    /*margin: 0em 0.3em;*/
 }
 div.file-navigation a {
     color: var(--cyan) !important;
